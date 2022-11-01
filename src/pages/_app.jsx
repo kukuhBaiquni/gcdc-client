@@ -1,3 +1,5 @@
+import '../styles/globals.css'
+import 'nprogress/nprogress.css'
 import PropTypes from 'prop-types'
 import NProgress from 'nprogress'
 import Router from 'next/router'
