@@ -9,7 +9,10 @@ Router.events.on('routeChangeComplete', () => NProgress.done())
 Router.events.on('routeChangeError', () => NProgress.done())
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  const getLayout = Component.getLayout || ((page) => page)
+  return getLayout(
+    <Component {...pageProps} />,
+  )
 }
 
 MyApp.propTypes = {

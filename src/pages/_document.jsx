@@ -13,6 +13,10 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Nunito&display=swap&family=Titillium+Web:wght@400;600&display=swap'
             rel='stylesheet'
           />
+          <link
+            href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'
+            rel='stylesheet'
+          />
         </Head>
         <body>
           <Main />
