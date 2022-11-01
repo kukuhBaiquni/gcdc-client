@@ -18,12 +18,15 @@ body {
   @apply max-w-screen-2xl min-h-screen mx-auto font-nunito;
 }
 
+input {
+  @apply outline-none focus:border-sky-700 transition-all !important;
+}
+
 .tm-base {
   @apply  
-  border-b 
   bg-white 
   dark:bg-neutral-900
-  border-neutral-300 
+  border-neutral-200 
   dark:border-neutral-700
   text-neutral-600
   dark:text-neutral-400
