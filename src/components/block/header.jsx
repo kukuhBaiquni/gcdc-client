@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import useDarkMode from 'hooks/use-dark-mode'
-import Input from 'components/form/input'
+import Input from 'components/form/search-input'
 
 export default function Header() {
   const { theme, setTheme } = useDarkMode()
@@ -15,7 +15,8 @@ export default function Header() {
           width={125}
         />
         <Input />
-        <div>
+        <i className='bx bx-menu text-xl flex lg:hidden' />
+        <div className='hidden lg:flex'>
           {theme === 'dark' ? (
             <i
               className='bx bxs-sun text-xl cursor-pointer'
