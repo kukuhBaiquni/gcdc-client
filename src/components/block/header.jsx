@@ -6,7 +6,7 @@ import Input from 'components/form/search-input'
 export default function Header() {
   const { theme, setTheme } = useDarkMode()
   return (
-    <header className='w-full h-16 sticky left-0 top-0 drop-shadow-sm tm-base border-b'>
+    <header className='w-full h-16 sticky left-0 top-0 drop-shadow-sm tm-base border-b z-50'>
       <div className='max-w-screen-2xl mx-auto h-full items-center flex justify-between px-2 2xl:px-0'>
         <Image
           alt='logo'
