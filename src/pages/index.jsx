@@ -1,10 +1,10 @@
 import DefaultLayout from 'layouts/default-layout'
+import Introduction from 'components/content/introduction'
 
 export default function Home() {
   return (
     <div>
-      TEsts
-      <div className='h-10 w-10 rounded-full bg-sky-500' />
+      <Introduction />
     </div>
   )
 }

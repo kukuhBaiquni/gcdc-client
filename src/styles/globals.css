@@ -11,11 +11,11 @@ body {
 }
 
 body {
-  @apply bg-white dark:bg-neutral-900 transition-all;
+  @apply bg-white dark:bg-neutral-900 transition-all text-neutral-600 dark:text-neutral-400;
 }
 
 .root {
-  @apply max-w-screen-2xl min-h-screen mx-auto font-nunito;
+  @apply max-w-screen-2xl min-h-screen mx-auto relative font-titillium px-2 2xl:px-0;
 }
 
 input {
@@ -28,8 +28,6 @@ input {
   dark:bg-neutral-900
   border-neutral-200 
   dark:border-neutral-700
-  text-neutral-600
-  dark:text-neutral-400
 }
 
 /* a {
