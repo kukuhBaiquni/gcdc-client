@@ -48,3 +48,5 @@ input {
     background: black;
   }
 } */
+
+@import 'components.css'

@@ -1,0 +1,11 @@
+.header-open {
+  @apply h-24;
+}
+
+.header-close {
+  @apply h-16;
+}
+
+.side-navigation > li{
+  @apply p-2 hover:bg-neutral-600;
+}

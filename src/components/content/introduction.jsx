@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Introduction() {
   return (
-    <div className='mt-8 w-auto bg-neutral-700 py-2 px-4'>
+    <div className='mt-8 w-auto py-2 px-4'>
       <h1 className='text-2xl'>
         Welcome to <strong className='text-sky-500'>GrandChase</strong> Dimensional Chaser <strong className='text-sky-500'>TODAY!</strong>
       </h1>
@@ -16,17 +16,6 @@ export default function Introduction() {
       <p className='mt-2'>
         Regards, Developer team
       </p>
-      <div className='mt-8 flex flex-col items-center justify-center gap-6'>
-        <h6>UPCOMING HERO <strong className='text-sky-400'>GENYMEDE</strong>!</h6>
-        <Image
-          alt='hero-genymede'
-          className='rounded-full border-sky-400 border-4'
-          height={250}
-          src='/images/genymede.webp'
-          width={250}
-        />
-      </div>
-
     </div>
   )
 }

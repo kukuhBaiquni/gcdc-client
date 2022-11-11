@@ -10,8 +10,8 @@ export default function DefaultLayout({ children }) {
       <Header />
       <div className='root'>
         <div className='flex gap-x-2 justify-between'>
-          {children}
           <Sidebar />
+          {children}
           <Feed />
         </div>
       </div>
