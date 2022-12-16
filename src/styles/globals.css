@@ -8,6 +8,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  transition: all;
+  transition-duration: 300;
 }
 
 body {
@@ -49,4 +51,6 @@ input {
   }
 } */
 
-@import 'components.css'
+@import 'components.css';
+@import 'animate.css';
+@import 'scroll.css';

@@ -15,7 +15,11 @@ module.exports = {
         nunito: ['Nunito'],
         titillium: ['Titillium Web'],
       },
-      colors: { ...colors },
+      colors: {
+        ...colors,
+        primary: '#b64a99',
+        secondary: '#0f223d',
+      },
     },
   },
   plugins: [],
